@@ -1,0 +1,31 @@
+<div class="node">
+  <div class="node-title">TimeDiff</div>
+
+  <div class="control-wrapper">
+    <div class="control-title">TimeValue</div>
+    <handle type="target" position="left" id="timevalue1-in" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">TimeValue</div>
+    <handle type="target" position="left" id="timevalue2-in" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">TimeValue</div>
+    <handle type="target" position="right" id="timevalue-out" [template]="squareHandleTemplate" />
+  </div>
+</div>
+
+<ng-template #squareHandleTemplate let-ctx>
+  <svg:circle
+    stroke-width="1"
+    stroke="black"
+    r="5"
+    [attr.cx]="ctx.point().x"
+    [attr.cy]="ctx.point().y"
+    [class.handle_idle]="ctx.state() === 'idle'"
+    [class.handle_valid]="ctx.state() === 'valid'"
+    [class.handle_invalid]="ctx.state() === 'invalid'"
+  />
+</ng-template>

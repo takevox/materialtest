@@ -1,0 +1,45 @@
+<div class="node">
+  <div class="node-title">Counter</div>
+
+  <div class="control-wrapper">
+    <div class="control-title">Name</div>
+    <input class="input" [value]="node.data?.id?.name()">
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">Count</div>
+    <input class="input" [value]="node.data?.id?.count()">
+
+    <handle type="target" position="left" id="count-in" [template]="squareHandleTemplate" />
+    <handle type="target" position="right" id="count-out" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">Min</div>
+    <input class="input" [value]="node.data?.id?.min()">
+
+    <handle type="target" position="left" id="min-in" [template]="squareHandleTemplate"  />
+    <handle type="target" position="right" id="min-out" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper control-wrapper_last">
+    <div class="control-title">Max</div>
+    <input class="input"  [value]="node.data?.id?.max()">
+
+    <handle type="target" position="left" id="max-in" [template]="squareHandleTemplate" />
+    <handle type="target" position="right" id="max-out" [template]="squareHandleTemplate" />
+  </div>
+</div>
+
+<ng-template #squareHandleTemplate let-ctx>
+  <svg:circle
+    stroke-width="1"
+    stroke="black"
+    r="5"
+    [attr.cx]="ctx.point().x"
+    [attr.cy]="ctx.point().y"
+    [class.handle_idle]="ctx.state() === 'idle'"
+    [class.handle_valid]="ctx.state() === 'valid'"
+    [class.handle_invalid]="ctx.state() === 'invalid'"
+  />
+</ng-template>

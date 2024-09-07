@@ -1,0 +1,29 @@
+<div class="node">
+  <div class="node-title">TimeValue</div>
+
+  <div class="control-wrapper">
+    <div class="control-title">Name</div>
+    <input class="input" [value]="node.data?.id?.name()">
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">TimeValue</div>
+    <input class="input" [value]="node.data?.id?.timevalue()">
+
+    <handle type="target" position="left" id="timevalue-in" [template]="squareHandleTemplate" />
+    <handle type="target" position="right" id="timevalue-out" [template]="squareHandleTemplate" />
+  </div>
+</div>
+
+<ng-template #squareHandleTemplate let-ctx>
+  <svg:circle
+    stroke-width="1"
+    stroke="black"
+    r="5"
+    [attr.cx]="ctx.point().x"
+    [attr.cy]="ctx.point().y"
+    [class.handle_idle]="ctx.state() === 'idle'"
+    [class.handle_valid]="ctx.state() === 'valid'"
+    [class.handle_invalid]="ctx.state() === 'invalid'"
+  />
+</ng-template>

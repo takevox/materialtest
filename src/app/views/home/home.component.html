@@ -1,0 +1,26 @@
+<vflow
+  [nodes]="nodes"
+  [edges]="edges"
+  [connection]="connection"
+  [background]="{ type: 'dots' }"
+  view="auto"
+  [optimization]="{computeLayersOnInit: true}"
+  (onConnect)="handleConnect($event)"
+>
+  <ng-template edge let-ctx>
+    <svg:path
+      [attr.d]="ctx.path()"
+      [attr.stroke-width]="4"
+      [attr.stroke]="ctx.edge.data.color"
+      [attr.marker-end]="ctx.markerEnd()"
+      fill="none"
+    />
+  </ng-template>
+
+  <ng-template edgeLabelHtml let-ctx>
+    <div
+      class="label"
+      [style.background-color]="ctx.label.data.color"
+      (click)="deleteEdge(ctx.edge)">Delete</div>
+  </ng-template>
+</vflow>

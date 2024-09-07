@@ -1,0 +1,41 @@
+<div class="node">
+  <div class="node-title">Widget</div>
+
+  <div class="control-wrapper">
+    <div class="widget"><img src="clock.svg"/></div>
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">lasttime</div>
+    <handle type="target" position="left" id="in-lasttime" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">timevalue</div>
+    <handle type="target" position="left" id="in-timevalue" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">user</div>
+    <handle type="target" position="left" id="in-user" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">first</div>
+    <handle type="target" position="left" id="in-first" [template]="squareHandleTemplate" />
+  </div>
+
+</div>
+
+<ng-template #squareHandleTemplate let-ctx>
+  <svg:circle
+    stroke-width="1"
+    stroke="black"
+    r="5"
+    [attr.cx]="ctx.point().x"
+    [attr.cy]="ctx.point().y"
+    [class.handle_idle]="ctx.state() === 'idle'"
+    [class.handle_valid]="ctx.state() === 'valid'"
+    [class.handle_invalid]="ctx.state() === 'invalid'"
+  />
+</ng-template>

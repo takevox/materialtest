@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148.79659mm"
+   height="130.15167mm"
+   viewBox="0 0 148.79659 130.15167"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="clock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.68684764"
+     inkscape:cx="291.91336"
+     inkscape:cy="338.50302"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-27.866145,-58.38527)">
+    <g
+       id="g9"
+       transform="translate(21.18677,-16.178988)">
+      <circle
+         style="fill:#5bff68;fill-opacity:1;stroke:#ffffff;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="path5"
+         cx="80.702332"
+         cy="139.64009"
+         r="63.752918" />
+      <g
+         id="g4"
+         transform="translate(-20.801556,35.439689)">
+        <rect
+           style="fill:#5bff68;fill-opacity:1;stroke:#ffffff;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+           id="rect2"
+           width="67.637512"
+           height="28.730892"
+           x="30.126766"
+           y="127.2007"
+           ry="6.9596572" />
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;fill:#ffffff;fill-opacity:1;stroke:#5bff68;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="31.490242"
+           y="135.21011"
+           id="text3"><tspan
+             sodipodi:role="line"
+             id="tspan3"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:HGPSoeiKakupoptai;-inkscape-font-specification:HGPSoeiKakupoptai;fill:#ffffff;fill-opacity:1;stroke:#5bff68;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             x="31.490242"
+             y="135.21011">あいさつ</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:16.8846px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;fill:#007a0a;fill-opacity:1;stroke:#ffffff;stroke-width:4.22115;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="42.695198"
+         y="95.636017"
+         id="text3-4"><tspan
+           sodipodi:role="line"
+           id="tspan3-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:HGPSoeiKakupoptai;-inkscape-font-specification:HGPSoeiKakupoptai;fill:#007a0a;fill-opacity:1;stroke:#ffffff;stroke-width:4.22115;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="42.695198"
+           y="95.636017">終了時間</tspan></text>
+      <g
+         id="g5"
+         transform="translate(13.867704)">
+        <rect
+           style="fill:#5bff68;fill-opacity:1;stroke:#ffffff;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+           id="rect2-5"
+           width="67.637512"
+           height="28.730892"
+           x="71.324913"
+           y="162.04643"
+           ry="6.9596572" />
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;fill:#ffffff;fill-opacity:1;stroke:#5bff68;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           x="72.420235"
+           y="170.74712"
+           id="text4"><tspan
+             sodipodi:role="line"
+             id="tspan4"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:HGPSoeiKakupoptai;-inkscape-font-specification:HGPSoeiKakupoptai;fill:#ffffff;fill-opacity:1;stroke:#5bff68;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             x="72.420235"
+             y="170.74712">初見</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:17.6204px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;stroke-width:0.44051"
+         x="33.51701"
+         y="187.34328"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rounded M+ 1m';-inkscape-font-specification:'Rounded M+ 1m';stroke-width:0.44051"
+           x="33.51701"
+           y="187.34328">51</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:17.6204px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;stroke-width:0.44051"
+         x="114.79717"
+         y="187.34328"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rounded M+ 1m';-inkscape-font-specification:'Rounded M+ 1m';stroke-width:0.44051"
+           x="114.79717"
+           y="187.34328">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:23.8702px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;stroke-width:0.596755"
+         x="38.982742"
+         y="121.47397"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rounded M+ 1m';-inkscape-font-specification:'Rounded M+ 1m';stroke-width:0.596755"
+           x="38.982742"
+           y="121.47397">7:14:00</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.6833px;line-height:1.25;font-family:HGSGothicM;-inkscape-font-specification:HGSGothicM;stroke-width:0.392083"
+         x="26.540417"
+         y="153.38857"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rounded M+ 1m';-inkscape-font-specification:'Rounded M+ 1m';stroke-width:0.392083"
+           x="26.540417"
+           y="153.38857">残り...3分05秒</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<div class="node">
+  <div class="node-title">Sum</div>
+
+  <div class="control-wrapper">
+    <div class="control-title">Input</div>
+    <handle type="target" position="left" id="input-1" [template]="squareHandleTemplate" />
+  </div>
+  <div class="control-wrapper">
+    <div class="control-title">Input</div>
+    <handle type="target" position="left" id="input-2" [template]="squareHandleTemplate" />
+  </div>
+  <div class="control-wrapper">
+    <div class="control-title">Input</div>
+    <handle type="target" position="left" id="input-3" [template]="squareHandleTemplate" />
+  </div>
+
+  <div class="control-wrapper">
+    <div class="control-title">Output</div>
+
+    <handle type="target" position="right" id="output-out" [template]="squareHandleTemplate" />
+  </div>
+
+</div>
+
+<ng-template #squareHandleTemplate let-ctx>
+  <svg:circle
+    stroke-width="1"
+    stroke="black"
+    r="5"
+    [attr.cx]="ctx.point().x"
+    [attr.cy]="ctx.point().y"
+    [class.handle_idle]="ctx.state() === 'idle'"
+    [class.handle_valid]="ctx.state() === 'valid'"
+    [class.handle_invalid]="ctx.state() === 'invalid'"
+  />
+</ng-template>
